@@ -1,0 +1,20 @@
+{
+  "name": "hap",
+  "bin": "index.js",
+  "author": {
+    "email": "i@lufei.im",
+    "name": "JetLu",
+    "url": "https://github.com/jetlua"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^8.0.0",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1"
+  }
+}

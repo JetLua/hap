@@ -1,0 +1,46 @@
+{
+  "name": "hap-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --env env=dev"
+  },
+  "browserslist": [
+    "android >= 4",
+    "ios >= 8"
+  ],
+  "author": "JetLu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-proposal-class-properties": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/runtime-corejs3": "latest",
+    "autoprefixer": "latest",
+    "axios": "latest",
+    "babel-loader": "latest",
+    "core-js": "latest",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "mini-css-extract-plugin": "latest",
+    "postcss-loader": "latest",
+    "raw-loader": "latest",
+    "style-loader": "latest",
+    "url-loader": "latest",
+    "vue": "latest",
+    "vue-loader": "latest",
+    "vue-router": "latest",
+    "vue-style-loader": "latest",
+    "vue-template-compiler": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.13.0"
+  }
+}
