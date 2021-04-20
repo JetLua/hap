@@ -1,4 +1,5 @@
 import {prompt} from 'inquirer'
+import {compileFile} from 'pug'
 
 prompt([
   {
@@ -43,6 +44,6 @@ prompt([
     }
   }
 ]).then(results => {
-
-  console.log(process.cwd(), __dirname)
+  const render = compileFile('template/vue/package.pug')
+  console.log(render({eslint: true}))
 })
